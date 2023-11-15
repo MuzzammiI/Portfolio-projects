@@ -1,0 +1,48 @@
+:root {
+    --left-bg: #111;
+    --right-bg: #161616;
+    --black:#000000;
+    --white-light: #9b9494;
+    --white: #fff;
+    --bluebtn: #1e90ff;
+    --hovercolor: #ec0202; 
+  }
+  .sm-round{
+    display: flex;
+    border-radius: 10px;
+  }
+  .box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  .hide{
+    display: none ;
+  
+  }
+  .show{
+    display: block ;
+  
+  }
+  .right-shift{
+    margin-left:20%;
+  }
+
+  /* ---------------FontSize------------- */
+  .ffont{
+    font-size: 2rem;
+  }
+  .dfont{
+    font-size: 1.5rem;
+  }
+  .mfont{
+    font-size: 1rem;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 800px) {
+  .right-shift{
+    margin-left: 0;
+  }
+  }
+
+

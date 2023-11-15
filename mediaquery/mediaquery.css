@@ -1,0 +1,118 @@
+/* ---leftsidebar--- */
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .left-sidebar{
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+        
+    }
+    .left-upper-content{
+        display: none;
+    }
+    .left-mid-content nav ul {
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .link-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .left-mid-content nav ul li a{
+        display: none;
+    }
+    .left-bottom-content{
+        display: none;
+    }
+    .right-sidebar{
+        width: 100%;
+        margin-left: 0;
+    }
+    .right-top-content{
+        width: 100%;
+    }
+    .right-mid-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .all-project-item,.project-header h1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .main-project-box{
+        width: 100%;
+    }
+    .about-page-bg{
+        width: 100%;
+        margin-left: 0;
+    }
+    .bar-close{
+        display: flex;
+    }
+    .bar-close i{
+        font-size: 1.5rem;
+    }
+    .about-page-header-left,.about-page-header-right{
+        display: none;
+    }
+    .about-media-page{
+        display: none;
+        transform: scale(0.9);
+
+    }
+    .about-content-box{
+        width: 100%;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .aboutpage-content-left{
+        width: 120%;
+        height: auto;
+        padding: 1rem;
+
+    }
+    .about-hero-name{
+
+        padding: 0;
+    }
+    .about-hero-name h1{
+        font-size: 36px;
+    }
+    .about-desc p,.about-short-desc-left p{
+        font-size: 14px;
+        letter-spacing: 0.1rem;
+    }
+    .aboutpage-content-right{
+        padding: 0;
+        width: 100%;
+        height: auto;
+        /* display: flex !important;
+        flex-direction: row !important; */
+        align-items: center !important;
+        justify-content: space-around !important;
+
+    }
+
+    
+    
+}

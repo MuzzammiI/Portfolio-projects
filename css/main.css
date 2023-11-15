@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+  }
+ 
+  .homepage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: var(--right-bg);
+  
+  }
+
+  .right-sidebar{
+    width: 100%;
+    min-height: auto;
+    padding: 2rem;
+    background-color: var(--right-bg);
+    display: flex;
+    flex-direction: column;
+  }
+  .right-top-content{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  background-color: var(--hovercolor);  
+  padding: 1rem;
+  
+  }
+  .right-top-content-left-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  .dd-icon-box{
+    display: flex;
+    width: 100%;
+  
+  }
+  .dd-icon-box p{
+    padding: 0.5rem 1rem;
+    background-color: var(--right-bg);
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .top-hero-content{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-image: radial-gradient(circle, red 0% , #161616 50%, rgb(0, 0, 0) 1000%);
+  }
+  .top-hero-content h1{
+    letter-spacing: 0.2rem;
+    /* margin-bottom: 1rem; */
+  }
+  .top-hero-about{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0;
+  }
+  .top-hero-about p{
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    color: var(--black);
+  }
+  .top-btn{
+    width: auto;
+    height: auto;
+    display: flex;
+  }
+  .top-btn a{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    color: var(--white);
+  
+  }
+  .top-btn a::after{
+    content: '';
+    width: 5%;
+    margin-top: 0.2rem;
+    height: 1px;
+    background-color: var(--black);
+    display: flex;
+    transition: all 0.5s ease;
+  
+  }
+  .top-btn a:hover::after{
+    width: 50%;
+  } 
+  .right-mid-content{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    /* padding-top: 1rem; */
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    color: var(--white);
+    background-image: radial-gradient(circle, red 0% , #161616 50%, rgb(0, 0, 0) 1000%);
+  }
+  
+  
+  
+  
+  .box1,.box4{
+    width: 100%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .box1-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .box1-item1,.box1-item2,.box1-item3,.box1-item4{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--left-bg);
+  
+  }
+  .box1-item1,.box1-item3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+  
+  }
+  .box1-item2,.box1-item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .box2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--left-bg);
+    padding: 1rem;
+    justify-content: space-around;
+  }
+  
+  .box2 h1{
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+  }
+  .box2 p{
+    letter-spacing: 0.1em;
+    padding: 1rem;
+    color: grey;
+  }
+  .box2-btn{
+    max-width:150px;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: auto;
+  }
+  .box2-btn a{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--bluebtn);
+  }
+  .box2-btn i{
+    color: var(--white-light);
+  }
+  .box2-btn:hover{
+    color: var(--white);
+  }
+  .box2-btn a::after{
+    content: '';
+    width: 20%;
+    margin-top: 0.2rem;
+    height: 1px;
+    background-color: var(--hovercolor);
+    display: flex;
+    transition: all 0.5s ease;
+  
+  }
+  .box2-btn a:hover::after{
+    width: 100%;
+  }
+  &:hover{
+    color: var(--white);
+  }
+  .box3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--left-bg);
+    padding: 1.5rem;
+  
+  }
+  
+  .box3 h1{
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .box3 a{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--bluebtn);
+  }
+  
+  .slider-image-project{
+    width: 80%;
+    height: auto;
+  }
+  .slider-image-project img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .box4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 5px;
+    background-color: var(--left-bg);
+  
+  }
+  .box4-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
+  
+  
+  }
+  .box4-item1,.box4-item2,.box4-item3,.box4-item4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+  }
+  .box4-item1,.box4-item3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+  }
+  .box4-item2,.box4-item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+
+
+
+  

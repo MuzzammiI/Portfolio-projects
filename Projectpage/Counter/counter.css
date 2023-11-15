@@ -1,0 +1,43 @@
+
+      .container-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        max-width: 0 auto;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+
+      }
+      .container-box h1{
+        font-size: 50px ;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-weight: 900;
+        margin-bottom: 1.5rem;
+        
+      }
+      .btnall {
+        width: 320px;
+        display: flex;
+        margin: 0 auto;
+      }
+         .btnall button  {
+          background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+          margin: 10px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          border-radius: 10px;
+
+        }
+
+        .btnall button:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+       
