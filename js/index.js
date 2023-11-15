@@ -31,6 +31,17 @@ aboutbtn.addEventListener("click", (e) => {
   aboutpageSection.classList.remove("hide");
   aboutpageSection.classList.add("show");
 });
+homebtn.addEventListener("click", (e) => {
+  document.documentElement.scrollTop = 0;
+  e.preventDefault();
+  homepageSection.classList.remove("hide");
+  homepageSection.classList.add("show");
+  projecSection.classList.add("hide");
+  projecSection.classList.remove("show");
+  aboutpageSection.classList.add("hide");
+  aboutpageSection.classList.remove("show");
+});
+
 
 // --servicpageSection--
 // servicebtn.addEventListener('click',(e)=>{
