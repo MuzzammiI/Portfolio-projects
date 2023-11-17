@@ -30,6 +30,8 @@ projectbtn.addEventListener("click", (e) => {
   homepageSection.classList.remove("show");
   aboutpageSection.classList.add("hide");
   aboutpageSection.classList.remove("show");
+  contactpageSection.classList.add("hide");
+  contactpageSection.classList.remove("show");
   projecSection.classList.remove("hide");
   projecSection.classList.add("show");
 });
@@ -41,6 +43,8 @@ aboutbtn.addEventListener("click", (e) => {
   homepageSection.classList.remove("show");
   projecSection.classList.add("hide");
   projecSection.classList.remove("show");
+  contactpageSection.classList.add("hide");
+  contactpageSection.classList.remove("show");
   aboutpageSection.classList.remove("hide");
   aboutpageSection.classList.add("show");
 });
