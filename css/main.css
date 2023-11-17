@@ -140,12 +140,19 @@
     width: 100%;
     height: 20vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     background-color: var(--left-bg);
-  
+  }
+  .box1-item1 p,.box1-item2 p,.box1-item3 p,.box1-item4 p{
+    text-transform: capitalize;
+    color: var(--white-light);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
   }
   .box1-item1,.box1-item3{
     grid-column-start: 1;
@@ -165,18 +172,22 @@
     display: flex;
     flex-direction: column;
     background-color: var(--left-bg);
-    padding: 1rem;
     justify-content: space-around;
   }
   
   .box2 h1{
     letter-spacing: 0.2rem;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .box2 p{
     letter-spacing: 0.1em;
-    padding: 1rem;
+    padding: 0 1rem;
     color: grey;
+    overflow-y:scroll;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;  
   }
   .box2-btn{
     max-width:150px;
@@ -227,7 +238,6 @@
     display: flex;
     flex-direction: column;
     background-color: var(--left-bg);
-    padding: 1.5rem;
   
   }
   
@@ -251,15 +261,34 @@
   }
   
   .slider-image-project{
-    width: 80%;
-    height: auto;
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
   }
   .slider-image-project img{
+    display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
+    position: absolute;
     border-radius: 5px;
     object-fit: cover;
     object-position: center;
+    transition: all 0.5s ease-in-out;
+  }
+  .slider-image-project i{
+    font-size: 2rem;
+    color: var(--white-light);
+    cursor: pointer;
+    z-index: 999;
+  }
+  .slider-image-project i:hover{
+    color: var(--white);
   }
   .box4{
     grid-column-start: 2;
@@ -298,6 +327,117 @@
   }
   
 
+/* ------------contact-formPage-Start----------- */
+.formcontent{
+  width: 100%;
+  height: auto;
+
+}
+.contact-form-header{
+  width: 100%;
+  height: 30vh;
+}
+.contact-form-header::before{
+  content: '';
+  width: 80%;
+  height: 30vh;
+  position: absolute;
+  background-image: url(../images/contactus.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
+.contact-form-header h1{
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+.contact-formpage{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+background-color: var(--left-bg);
+  color: white;
+  justify-content: center;
+}
+.form-left label{
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.form-left input{
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+
+}
+.form-left input::placeholder{
+  color: var(--black);
+}
+.form-left textarea{
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
+.form-left h1{
+  width: 80%;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--white);
+}
+.sendbtn{
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;  
+  margin-bottom: 0.5rem;
+ 
+}
+.form-right{
+  display: flex;
+  width:50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center ;
+}
+.form-right iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+}
+/* ------------contact-formPage-End----------- */
 
 
   

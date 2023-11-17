@@ -77,15 +77,16 @@ function projectcount(){
   <p class="mfont">Completed Projects</p>
 </div>
 <div class="box1-item2 sm-round box-shadow">
-  <h1>Webflow Expert</h1>
+  <h1>Professional</h1>
+  <p>HTML,CSS,Javascript</p>
 </div>
 <div class="box1-item3 sm-round box-shadow">
   <h1>50+</h1>
   <p>Satisfied Clients</p>
 </div>
 <div class="box1-item4 sm-round box-shadow">
-  <h1>1 Years</h1>
-  <p>Design Experience</p>
+  <h1>1+ Years</h1>
+  <p>web development</p>
 </div>
 </div>`
 box.innerHTML=homecounterhtml;
@@ -93,5 +94,46 @@ box.innerHTML=homecounterhtml;
 projectcount();
 // homepage-jsapply--end---
 
+
+
+
+// -------------FeaturesProjectslider-start---------
+
+setInterval(()=>{
+  function sliderprojectImg(){
+    let slides = document.querySelectorAll('.slides');
+  let counter=0;
+  slides.forEach((slide,index)=>{
+      slide.style.left = `${index*100}%`;
+  });
+  
+  document.querySelector('.next').addEventListener('click',()=>{
+      counter++;
+      carousel();
+  });
+  document.querySelector('.prev').addEventListener('click',()=>{
+      counter--;
+      carousel();
+  });
+  
+  function carousel(){
+      if(counter===slides.length){
+          counter=0;
+      }
+      if(counter<0){
+          counter=slides.length-1;
+      }
+      slides.forEach((slide)=>{
+          slide.style.transform = `translateX(-${counter*100}%)`;
+      });
+  
+  }
+  }
+  sliderprojectImg();
+  
+},2000)
+
+
+// -------------FeaturesProjectslider-end---------
 
 
