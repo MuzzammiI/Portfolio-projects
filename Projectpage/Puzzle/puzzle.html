@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery UI Draggable + Sortable</title>
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://kit.fontawesome.com/61bf66bfed.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
+    <link rel="stylesheet" href="./jquery/jqueryui.css" />
+    <script src="./jquery/jquery.js"></script>
+    <script src="./jquery/jqueryui.js"></script>
+  </head>
+  <body>
+    <div class="right-container hide">
+      <p> <span>Congratulation!</span> Solved the Puzzle.</p>
+      <div class="game-btn">
+        <button id="restart-btn"><img src="./image/restart.png" alt=""> Restart</button>
+      <button><img src="./image/next.png" alt=""> Next</button>
+      </div>
+    </div>
+
+    <div class="puzzle-funtion hide" id="puzzle-function">
+      <div class="puzzle-box">
+        <div class="left-item">
+          <div class="card">
+            <p class="card-text text-start">Visual Hint</p>
+            <img src="./image/puzzle1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body"></div>
+          </div>
+        </div>
+        
+        <ul id="sortable">
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_001.jpg" alt="" />1</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_007.jpg" alt="" />7</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_005.jpg" alt="" />5</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_004.jpg" alt="" />4</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_006.jpg" alt="" />6</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_002.jpg" alt="" />2</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_008.jpg" alt="" />8</li>
+          <li class="ui-state-default"><img src="./image/Puzzle1/image_part_003.jpg" alt="" />3</li>
+
+
+          <!-- <li class="ui-state-default">1</li>
+          <li class="ui-state-default">2</li>
+          <li class="ui-state-default">3</li>
+          <li class="ui-state-default">5</li>
+          <li class="ui-state-default">4</li>
+          <li class="ui-state-default">6</li>
+          <li class="ui-state-default">8</li>
+          <li class="ui-state-default">7</li> -->
+
+          
+
+
+  
+          <!-- 8-1
+          7-2
+          6-3
+          5-4
+          4-5
+          3-6
+          2-7
+          1-8 -->
+        </ul>
+      </div>
+    </div>
+    <div class="won-vedio hide ">
+      <video autoplay muted loop id="myVideo">
+        <source src="./image/wonvedio.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+
+    <div class="start-game showitem" id="start-game">
+      <div class="start-btn" onclick="start()">Start Puzzle Game </div>
+    </div>
+
+
+    <!-- ----won-vedio------------ -->
+    
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

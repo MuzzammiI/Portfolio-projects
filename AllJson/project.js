@@ -28,6 +28,21 @@ let projectJson = [
 
       },
   },
+  {
+    id: 3,
+    title: "Puzzle Game",
+    img: "./images/puzzle-bg.jpg",
+    link: "./Projectpage/Puzzle/puzzle.html",
+    description:
+      "Puzzle video games make up a broad genre of video games that emphasize puzzle solving. The types of puzzles can test problem-solving skills, including logic, pattern recognition, sequence solving.",
+      tools: {
+        tool1:'HTML',
+        tool2:'CSS',
+        tool3:'Javascript',
+        tool4:'Jquery',
+
+      },
+  },
   
 ];
 

@@ -1,0 +1,63 @@
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .menu ul{
+        display: none;
+    }
+    .hero-section h1{
+        width: 80%;
+    }
+    .hero-section p{
+        width: 90%;
+        font-size: x-small;
+    }
+    .hero-btn ul li a{
+        font-size: 12px;
+        padding: 0.5rem 0.9rem;
+    }
+    .company-name ul{
+        width: 80%;    
+        justify-content: space-between;
+    }
+    .company-name ul li i{
+        font-size: small;
+    }
+    .company-name ul li a{
+        font-size: small;
+    }
+    .hero-service-item{
+        width: 100%;
+        flex-direction: column;
+    }
+    .service-item-1{
+        width: 80%;
+        margin-top: 0.5rem;
+    }
+    .whychooseus-digital-item,.clientsays-item,.faq-box{
+        width: 80%;
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hero-service-bg,.whychooseus-digital-bg,.clientsays-bg,.faq-bg{
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+    }
+    .hero-service-bg h1,.whychooseus-digital-bg h1,.clientsays-bg h1,.faq-bg h1{
+        font-size: 1.5rem;
+    }
+    .hero-service-bg p,.whychooseus-digital-bg p,.clientsays-bg p,.faq-bg p{
+        font-size: 0.8rem;
+    }
+    .profile-right a{
+        font-size: x-small;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-mid{
+        margin: 1rem 1rem;
+    }
+    .footer-mid ul li{
+        margin-top: 0.5rem;
+    }
+
+}
