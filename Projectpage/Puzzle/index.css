@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .right-container{
-    width: 70%;
+    width: 100%;
     position: absolute;
     right: 0;
     top: 0;
@@ -13,9 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 9;
-    margin: auto;
-    padding: 1.5rem 0;
+    z-index: 5;
+    padding: 1rem 0;
     transition: all 0.5s ease-in-out;
     color: white;
     background-color: #242424;
@@ -44,7 +43,7 @@
 .puzzle-funtion{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     align-items: center;
     justify-content:space-around;
     background-color: black;
@@ -53,8 +52,9 @@
     position: relative;
 }
 .puzzle-box{
+    margin: 1.5rem auto;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -82,12 +82,13 @@
 
 }
 #sortable{
-    width: 55%;
-    height: 55vh;
+    width: 100%;
+    height: 65vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.2rem;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
+    /* padding: 1.5rem; */
 }
 #sortable li{
     list-style: none;
@@ -120,6 +121,7 @@
     display: flex;
     position: absolute;
     bottom: 0;
+    z-index: 1;
 
 
 }
@@ -150,6 +152,7 @@
     padding: 0 1.5rem;
     margin: 0 auto;
 }
+
 .start-btn{
     padding: 0.5rem 1rem;
     background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
@@ -185,7 +188,9 @@
 
 
 @media screen and (max-width: 960px){
+    
     .puzzle-box{
+        margin-top: 20vh;
         display: flex;
         flex-direction: column;
     }

@@ -25,7 +25,11 @@
 
 
 $(function () {
+  // $(".draggable").draggableTouch({
+  //   useTransform: true
+  // });
   $("#sortable").sortable({
+    
     // revert: true
     update: function (event, ui) {
       if (isSorted($("#sortable"))) {
