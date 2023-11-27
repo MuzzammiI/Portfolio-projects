@@ -1,0 +1,175 @@
+{
+    "error": false,
+    "amount": 10,
+    "jokes": [
+        {
+            "category": "Dark",
+            "type": "twopart",
+            "setup": "What's the difference between a phone and a black person?",
+            "delivery": "A phone is actually useful.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": true,
+                "sexist": false,
+                "explicit": false
+            },
+            "safe": false,
+            "id": 309,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "single",
+            "joke": "How do you make holy water? You boil the hell out of it.",
+            "flags": {
+                "nsfw": false,
+                "religious": true,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 202,
+            "safe": false,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "twopart",
+            "setup": "What did the fish say when it swam into the wall?",
+            "delivery": "Dam.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": true
+            },
+            "id": 205,
+            "safe": false,
+            "lang": "en"
+        },
+        {
+            "category": "Dark",
+            "type": "twopart",
+            "setup": "Dark humor is like cancer.",
+            "delivery": "It's more funny when children get it.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 117,
+            "safe": false,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "twopart",
+            "setup": "Do you know what killed the man who had a two ton pumpkin fall on him?",
+            "delivery": "He was squashed.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "safe": true,
+            "id": 312,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "twopart",
+            "setup": "How does a Jewish person make tea?",
+            "delivery": "Hebrews it.",
+            "flags": {
+                "nsfw": false,
+                "religious": true,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 131,
+            "safe": false,
+            "lang": "en"
+        },
+        {
+            "category": "Dark",
+            "type": "twopart",
+            "setup": "What's the difference between a baby and a pile of sand?",
+            "delivery": "You can't pick a pile of sand up with a pitchfork.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": true
+            },
+            "id": 120,
+            "safe": false,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "twopart",
+            "setup": "How much did your chimney cost?",
+            "delivery": "Nothing, it was on the house.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 231,
+            "safe": true,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "twopart",
+            "setup": "To prove he was right, the flat-earther walked to the end of the Earth.",
+            "delivery": "He eventually came around.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "safe": true,
+            "id": 280,
+            "lang": "en"
+        },
+        {
+            "category": "Pun",
+            "type": "twopart",
+            "setup": "Why do front end developers eat lunch alone?",
+            "delivery": "Because they don't know how to join tables.",
+            "flags": {
+                "nsfw": false,
+                "religious": false,
+                "political": false,
+                "racist": false,
+                "sexist": false,
+                "explicit": false
+            },
+            "id": 254,
+            "safe": true,
+            "lang": "en"
+        }
+    ]
+}

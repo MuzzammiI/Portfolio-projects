@@ -1,0 +1,33 @@
+.jokes-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#jokes-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+.flags{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    justify-content: center;
+}
+.flags p{
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    border: 1px solid #6c757d;
+    border-radius: 20px;
+    margin-left: 0.5rem ;
+}
