@@ -43,6 +43,21 @@ let projectJson = [
 
       },
   },
+  {
+    id: 4,
+    title: "Random Jokes",
+    img: "./images/Randomejokes.jpg",
+    link: "./Projectpage/Jokes/index.html",
+    description:
+      "Funny short jokes make you laugh out loud, most times uncontrollably.",
+      tools: {
+        tool1:'HTML',
+        tool2:'CSS',
+        tool3:'Javascript',
+        tool4:'Bootstrap , Random API ',
+
+      },
+  },
   
 ];
 
