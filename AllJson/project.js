@@ -58,6 +58,21 @@ let projectJson = [
 
       },
   },
+  {
+    id: 5,
+    title: "Crypto_currency",
+    img: "./images/crytpo_currency.jpg",
+    link: "./Projectpage/Currency/test.html",
+    description:
+      "Crypto_currency here you can see the current price of the crypto_currency.",
+      tools: {
+        tool1:'HTML',
+        tool2:'CSS',
+        tool3:'Javascript',
+        tool4:'Bootstrap , Random API ',
+
+      },
+  },
   
 ];
 
